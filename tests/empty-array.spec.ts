@@ -8,4 +8,4 @@ test('GET / - should return empty when no users', async ({request}) => {
     expect(response.status()).toBe(StatusCodes.OK);
     const responseBody = await response.text()
     expect(responseBody).toBe('[]');
-});
+})
