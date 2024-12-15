@@ -1,0 +1,22 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=Aqua
+
+###
+# curl -X GET http://localhost:3000/users
+GET http://localhost:3000/users
+
+###
+
+# curl -X POST http://localhost:3000/users
+POST http://localhost:3000/users
+
+###
+# curl -X GET http://localhost:3000/users/:id
+GET http://localhost:3000/users/62
+
+###
+# curl -X DELETE http://localhost:3000/users/:id
+DELETE http://localhost:3000/users/62
+
+###
