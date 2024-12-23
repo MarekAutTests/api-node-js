@@ -48,7 +48,6 @@ test.afterAll(async ({request}) => {
     expect(responseBodyEmpty).toBe('[]');
 })
 
-
 test.describe('User management API', () => {
 
     test('GET /:id - should return a user by ID', async ({request}) => {
